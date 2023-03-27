@@ -15,8 +15,8 @@ public class LoginActions extends LoginRepo {
 		input.sendKeys(Filter);
 		input.sendKeys(Keys.ENTER);
 		download.click();
-	//	yes.click();
-	//	Thread.sleep(50000);
+		yes.click();
+		Thread.sleep(50000);
 		
 	}
 
