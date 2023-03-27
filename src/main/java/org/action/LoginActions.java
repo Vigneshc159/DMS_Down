@@ -9,12 +9,12 @@ public class LoginActions extends LoginRepo {
 		password.sendKeys(Password);
 		signin.click();
 //		pro.click();
-	//	Thread.sleep(10000);
-	//	input.clear();
-		//Thread.sleep(10000);
-	//	input.sendKeys(Filter);
-	//	input.sendKeys(Keys.ENTER);
-	//	download.click();
+			Thread.sleep(10000);
+		input.clear();
+		Thread.sleep(10000);
+		input.sendKeys(Filter);
+		input.sendKeys(Keys.ENTER);
+		download.click();
 	//	yes.click();
 	//	Thread.sleep(50000);
 		
